@@ -1,0 +1,28 @@
+/* Mobile First  */
+/* Mobile */
+
+.cards-section {
+  width: 100%;
+
+  padding: 55px 0;
+  background-color: #df6464;
+}
+.cards-section__title {
+  text-align: center;
+}
+
+.cards-section__cards {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+  .cards-section__cards {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+/* Deskop */

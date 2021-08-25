@@ -1,0 +1,26 @@
+/* Mobile First */
+/* Mobile */
+.button {
+  padding: 5px 10px;
+  border: 0;
+  cursor: pointer;
+}
+
+.button-primary {
+  background-color: black;
+  color: #fff;
+}
+
+.button-secondary {
+  border: 1px solid #000;
+  background-color: #fff;
+  color: #000;
+}
+
+.button-default {
+  background-color: #f4f4f4;
+  color: #000;
+}
+/* Tablet */
+
+/* Deskop */
