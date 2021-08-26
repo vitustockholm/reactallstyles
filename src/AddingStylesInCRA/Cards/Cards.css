@@ -1,9 +1,10 @@
 /* Mobile First  */
+/*BEM mothodic styling learningpurposes*/
 /* Mobile */
 
 .cards-section {
   width: 100%;
-
+  border: 1px solid black;
   padding: 55px 0;
   background-color: #df6464;
 }

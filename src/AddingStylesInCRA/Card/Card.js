@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 
 // useRef takes component style
-// solving style problem in react issued ref methot
+// solving style problem in react issued ref methodic
 
 // import Button from './Button';
 

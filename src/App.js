@@ -8,23 +8,29 @@
 // import TeamMemberPage from './pages/TeamMemberPage';
 //Components
 // import Header from './components/Header';
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 
 //adding styles
 import './global.css';
 ////////////////////////////////////////////////////////////////
 //BEM
-import Cards from './AddingStylesInCRA/Cards/Cards';
+// import Cards from './AddingStylesInCRA/Cards/Cards';
 
 //Css modules
-import Hero from './AddingStylesInCRA/CSSmodules/Hero/Hero';
+// import Hero from './AddingStylesInCRA/CSSmodules/Hero/Hero';
 
 //Styled -components
-import StyledHero from './AddingStylesInCRA/StyledComponents/StyledHero';
-import CardComponent from './AddingStylesInCRA/Bootstrap/CardComponent';
+// import StyledHero from './AddingStylesInCRA/StyledComponents/StyledHero';
+// import CardComponent from './AddingStylesInCRA/Bootstrap/CardComponent';
 
 //importing react bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
+//import tas card ernestas
+import CardTask from './AddingStylesInCRA/CardTask';
+//2 import CardTaskCssModule
+import CardTaskCssModule from './AddingStylesInCRA/CSSmodules/CardOnModules/CardTaskCssModule';
+//3 styled-component card task
+import StyledCardTask from './AddingStylesInCRA/StyledComponents/StyledCardTask';
 
 function App() {
   return (
@@ -42,7 +48,7 @@ function App() {
           <Route path='/contact' component={ContactPage} />
         </Switch>
       </Router>  */}
-      <Cards
+      {/* <Cards
         sectionTitle='Services'
         cardsArray={[
           {
@@ -60,12 +66,18 @@ function App() {
             content: 'Serviceonedoing',
             buttonText: 'Learn more',
           },
-        ]}
-      />
-      <Footer />
-      <Hero />
-      <StyledHero />
-      <CardComponent />
+        ]}  */}
+
+      {/* <Footer /> */}
+      {/* <Hero /> */}
+      {/* <StyledHero /> */}
+      {/* <CardComponent /> */}
+      {/* BEMUSENNA ---1-BEM---K O M E N T A S*/}
+      <CardTask />
+      {/* BEMUSENNA ---2-CSS-MODULES---K O M E N T A S*/}
+      <CardTaskCssModule />
+      {/* BEMUSENNA ---3-STYLED-COMPONENTS---K O M E N T A S*/}
+      <StyledCardTask />
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from '../Card/Card';
 
-import './Cards.css';
+import './Cards.css'; //BEM convention
 
 const Cards = ({ sectionTitle, cardsArray }) => {
   return (
